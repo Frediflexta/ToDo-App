@@ -47,6 +47,7 @@
 
             .title {
                 font-size: 85px;
+                text-decoration: none !important;
             }
 
             .links > a {
@@ -82,7 +83,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ToDos'
+                    <a href="/">ToDos'</a>
                 </div>
                 <div>
                   @yield('content')

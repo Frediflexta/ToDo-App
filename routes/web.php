@@ -19,6 +19,6 @@ Route::get('/new', [
     'uses' => 'NewPageController@new'
 ]);
 
-Route::get('/todos', [
-    'uses' => 'TodosController@index'
-]);
+Route::get('/todos', 'TodosController@index');
+
+Route::post('/create/todo', 'TodosController@store');
